@@ -1,0 +1,219 @@
+
+header{
+    font-size: 15px;
+    height: 60px;
+    width: 98vw;
+    position: fixed;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: var(--color-backgroud);
+    border-radius: 15px;
+}
+
+
+section{
+    margin-top: 100px;
+}
+
+.mainaboutme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:auto;    
+    width: 70vw;
+    height: 60vh;
+}
+
+#langbtn{
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+header nav{
+    display: flex;
+   align-items: flex-start;
+margin-left: 40%;}
+
+header nav ul, header h1{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    
+}
+
+header nav ul li{
+    margin: auto;
+width: 170px;}
+
+header h1{
+    margin: auto;
+    font-size: 20px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 5px;
+    transition: all 0.3s ease;
+}
+
+header nav a:hover{
+   cursor: pointer;
+    background-color: var(--color-orange);
+    color: rgb(255, 255, 255)
+}
+
+
+.maingheader{
+ margin: 120px auto 30px auto;    
+ display: flex;
+    flex-direction: row;
+    position: relative;
+    font-size: 30px;
+    border: 1px solid black;
+    background-color: var(--color-orange);
+    border-radius: 4px;
+    height: 65vh;
+    width: 70vw;
+}
+
+@media (max-width: 600px) {
+    .maingheader{
+        top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 40px auto;
+        align-items: center;
+        width: 80vw;
+        height: auto;
+    }
+
+    section{
+    margin-top: 200px;
+}
+
+
+}
+
+.captionyo{
+    background-color: var(--color-caption);
+    font-size: 20px;
+    margin: auto 20px auto;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 310px;
+   width: 250px !important;
+    display: flex;
+    justify-content: center;
+    transition: all 0.5s ease;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+@media (max-width: 600px) {
+    .captionyo{
+        margin: 20px auto;
+        margin-bottom: 20px;
+        width: 80% !important;
+        height: auto;
+        padding-bottom: 20px;
+    }
+}
+
+.captionyo .logome{
+    width: 180px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.inconosheader{
+display: flex;
+align-items: center;
+margin: auto;
+flex-direction: row;
+}
+
+.infoheader button{
+margin-top: 30px;
+width: 170px;
+height: 35px;
+border-radius: 7px;
+border: 1px solid black;
+background-color: transparent;
+transition: all 0.6s ease;
+}
+
+@media (max-width: 600px) {
+    .infoheader button{
+        margin-bottom: 20px;
+    }
+}
+
+.infoheader button:hover{
+transform: scale(110%);
+border-radius: 7px;
+border: 1px solid black;
+background-color: white;
+opacity: 0.9;
+cursor: pointer;
+}
+
+.iconoheader{
+margin-left: 30px ;
+transition: all 0.5s ease;
+}
+.iconoheader:hover{
+    transform: scale(105%);
+    box-shadow: 4px 4px 4px black;
+}
+
+.infoheader{
+    display: flex;
+align-items: center;
+margin: auto;
+flex-direction: column;
+
+}
+
+
+.captionyo:hover{
+    opacity: 0.9;
+    cursor: pointer;
+    transform: scale(105%);
+    transition: all 0.5s ease;
+}
+
+.captionyo:active{
+    transform: scale(150%);
+    transform: rotate(5deg);
+    background-color:  rgb(210, 69, 69);;
+}
+
+.captionyo p,
+.captionyo h2 {
+    margin: auto;
+    padding: 0;
+    color: white;
+    display: flex;
+     
+}
